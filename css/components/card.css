@@ -39,7 +39,7 @@
 
 .card-footer {
   display: flex;
-  height: 240px;
+  height: 100px;
   /* gap: 16px;  CAREFUL NOT FULLY COMPATIBLE*/ 
 }
 
