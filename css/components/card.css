@@ -1,0 +1,55 @@
+.card-frame {
+  background-color: white;
+  padding: 16px;
+}
+
+.card-product {
+  display: flex;
+  height: 240px;
+  margin-bottom: 16px;
+}
+
+.card-video {
+  height: 240px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 16px;
+}
+
+.card-product img {
+  width: 50%;
+  object-fit: cover;
+}
+
+.card-info {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.card-info h3, .card-info p {
+  margin: 0;
+}
+
+.card-stars {
+  color: gold;
+}
+
+.card-footer {
+  display: flex;
+  height: 240px;
+  /* gap: 16px;  CAREFUL NOT FULLY COMPATIBLE*/ 
+}
+
+.card-footer img{
+  width: 100px;
+  flex-grow: 1;
+  object-fit: cover;
+  margin-right: 16px;
+}
+
+.card-footer img:last-child {
+  margin-right: 0px;
+}
